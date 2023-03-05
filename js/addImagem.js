@@ -40,7 +40,7 @@ function addImageFormSubmit(){
     form.addEventListener('submit', e =>{
         e.preventDefault()
         const imageLink = e.target.elements["endereco_imagem"].value
-        const validImages = [".jpg", "image", "jpeg", "png"]
+        const validImages = [".jpg", "image", "jpeg", "png", "imgrc"]
         let LinkHaveImage = false
 
         validImages.forEach(element =>{
